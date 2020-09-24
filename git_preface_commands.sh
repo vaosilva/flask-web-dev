@@ -1,6 +1,6 @@
 #!/bin/bash
 git checkout 1a # or other tag that references the required chapter
-git reset --hard # in case i do some unintended change and i want to rever the code state
+git reset --hard # in case i do some unintended change and i want to revert the code state
 # to refresh the local repo from the one on GitHub and keep the code example updated:
 git fetch --all
 git fetch --tags
